@@ -1,0 +1,215 @@
+:root {
+  --main-font: "Roboto", "Arial", "Calibri", "San Fransisco", sans-serif;
+  --logo-font: "Raleway", "Arial", "Calibri", "San Fransisco", sans-serif;
+  --main-font-size: 16px;
+  --secondary-font-size: 14px;
+  --main-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --main-white-color: #ffffff;
+  --main-black-color: #000000;
+  --light-bg-color: #f5f4fa;
+  --dark-bg-color: #2f303a;
+  --address-color: rgba(255, 255, 255, 0.6);
+  --modal-btn-hov-color: #188ce8;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  color: var(--main-text-color);
+}
+
+/* Logo */
+.page-header-logo-link,
+.page-footer-logo-link {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.page-header-logo-link-end {
+  color: var(--main-black-color);
+}
+
+.page-footer-logo-link-end {
+  color: var(--main-white-color);
+}
+/* End Logo */
+
+/* Components */
+.title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+/* End Components */
+
+/* Header */
+.page-header-nav-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.page-header-nav-menu-link:hover,
+.page-header-nav-menu-link:focus,
+.current-page {
+  color: var(--accent-color);
+}
+
+.page-header-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.page-header-contacts-link:hover,
+.page-header-contacts-link:focus {
+  color: var(--accent-color);
+}
+/* End Header */
+
+/* Footer */
+.page-footer {
+  background-color: var(--dark-bg-color);
+}
+
+.page-footer-contacts {
+  font-style: normal;
+}
+
+.page-footer-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03;
+  color: var(--address-color);
+}
+
+.page-footer-list-link:hover,
+.page-footer-list-link:focus {
+  color: #ffffff;
+}
+/* End Footer */
+
+/*========== index.html ==========*/
+
+/* Hero */
+.hero {
+  background-color: var(--dark-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--modal-btn-hov-color);
+}
+/* End Hero */
+
+/* Features */
+.feature-list-subtitle {
+  font-size: var(--secondary-font-size);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.feature-list-description {
+  font-size: var(--secondary-font-size);
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
+/* End Features */
+
+/* Team */
+.team {
+  background-color: var(--light-bg-color);
+}
+
+.team-list-name {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team-list-position {
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* End Team */
+
+/*========== End index.html ==========*/
+
+/*========== portfolio.html ==========*/
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: var(--light-bg-color);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:active {
+  color: var(--main-black-color);
+  background-color: var(--accent-color);
+}
+
+.project-list-client {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.project-list-filter {
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/*========== End portfolio.html ==========*/
