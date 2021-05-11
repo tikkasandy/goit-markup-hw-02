@@ -59,7 +59,8 @@ body {
 /* End Components */
 
 /* Header */
-.page-header-nav-menu-link {
+.page-header-nav-menu-link,
+.page-header-contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,23 +68,16 @@ body {
   color: var(--title-color);
 }
 
+.current-page,
 .page-header-nav-menu-link:hover,
 .page-header-nav-menu-link:focus,
-.current-page {
+.page-header-contacts-link:hover,
+.page-header-contacts-link:focus {
   color: var(--accent-color);
 }
 
 .page-header-contacts-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: inherit;
-}
-
-.page-header-contacts-link:hover,
-.page-header-contacts-link:focus {
-  color: var(--accent-color);
 }
 /* End Header */
 
@@ -106,7 +100,7 @@ body {
 
 .page-footer-list-link:hover,
 .page-footer-list-link:focus {
-  color: #ffffff;
+  color: var(--main-white-color);
 }
 /* End Footer */
 
@@ -196,7 +190,8 @@ body {
 }
 
 .filter-btn:hover,
-.filter-btn:active {
+.filter-btn:active,
+.filter-btn:focus {
   color: var(--main-black-color);
   background-color: var(--accent-color);
 }
