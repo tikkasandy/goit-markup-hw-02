@@ -1,8 +1,8 @@
 :root {
   --main-font: "Roboto", "Arial", "Calibri", "San Fransisco", sans-serif;
   --logo-font: "Raleway", "Arial", "Calibri", "San Fransisco", sans-serif;
-  --main-font-size: 16px;
-  --secondary-font-size: 14px;
+  --main-font-size: 14px;
+  --secondary-font-size: 16px;
   --main-text-color: #757575;
   --title-color: #212121;
   --accent-color: #2196f3;
@@ -26,6 +26,7 @@ body {
   font-family: var(--main-font);
   font-size: var(--main-font-size);
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
 
 /* Logo */
@@ -62,7 +63,6 @@ body {
 .page-header-nav-menu-link,
 .page-header-contacts-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -91,10 +91,7 @@ body {
 }
 
 .page-footer-list-link {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03;
   color: var(--address-color);
 }
 
@@ -124,7 +121,7 @@ body {
 .modal-btn {
   font-family: inherit;
   font-weight: 700;
-  font-size: inherit;
+  font-size: var(--secondary-font-size);
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
@@ -141,16 +138,12 @@ body {
 
 /* Features */
 .feature-list-subtitle {
-  font-size: var(--secondary-font-size);
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
 }
 
 .feature-list-description {
-  font-size: var(--secondary-font-size);
-  letter-spacing: 0.03em;
   line-height: 1.71;
 }
 /* End Features */
@@ -162,12 +155,14 @@ body {
 
 .team-list-name {
   font-weight: 500;
+  font-size: var(--secondary-font-size);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
 .team-list-position {
+  font-size: var(--secondary-font-size);
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -180,7 +175,7 @@ body {
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
-  font-size: inherit;
+  font-size: var(--secondary-font-size);
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
@@ -204,6 +199,7 @@ body {
 }
 
 .project-list-filter {
+  font-size: var(--secondary-font-size);
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
